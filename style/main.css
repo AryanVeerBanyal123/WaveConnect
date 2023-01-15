@@ -1,0 +1,114 @@
+html,
+body,
+.view {
+  height: 100%;
+}
+
+body{
+  box-sizing: border-box;
+  min-height: 99vh;
+  background: linear-gradient(292.93deg, rgba(105, 0, 95, 0.63) 0.89%, rgba(105, 0, 95, 0.63) 26.43%, rgba(255, 255, 255, 0) 99.46%), linear-gradient(114.25deg, #001E3A 40.03%, #001E39 67.74%, rgba(18, 57, 93, 0) 101.22%);
+}
+
+#mobile-box {
+  width: 360px;
+  display: none;
+ 
+    margin-top: 10vh;
+  
+}
+
+.card {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.card .view {
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card h5 a {
+  color: #0d47a1;
+}
+
+.card h5 a:hover {
+  color: #072f6b;
+}
+
+#pButton {
+  float: left;
+}
+
+#timeline {
+  width: 90%;
+  height: 2px;
+  margin-top: 20px;
+  margin-left: 10px;
+  float: left;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#pButton {
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+#playhead {
+  width: 8px;
+  height: 8px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin-top: -3px;
+  background: black;
+  cursor: pointer;
+}
+
+#homePage{
+    display: none;
+}
+#endingWave{
+  display: none;
+}
+
+/****
+Add these on the main project. 
+Mostly contains the 3 buttons
+Also Incluse google fonts in index.html and script from end
+****/
+.controlBtn{
+  border: 1px solid rgba(0, 0, 0, 0.128);
+  border-radius: 50%;
+  padding: 9px;
+  margin: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 5px 18px rgba(0,0,0,0.1) inset; 
+
+  transform: scale(1.05, 1.05);
+  transition: all 0.12s linear;
+  cursor: pointer;
+}
+
+.controlBtn:hover{
+  transform: scale(1.11, 1.11);
+}
+
+
+.endCallBtn{
+  background-color: #eb0f0fe4;
+}
+
+
+
+#audioContainer{
+  box-shadow: 0 10px 18px rgba(0,0,0,0.22)
+}
+
+@media only screen and (max-width: 1000px){
+    body{
+      padding: 1vh;
+    };
+  }
